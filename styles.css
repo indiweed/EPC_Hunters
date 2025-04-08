@@ -93,10 +93,12 @@ input[type=file] {
 @font-face {
   font-family: "ActayWide";
   src: url(./fonts/actaywide-bold3.otf);
+  font-display: swap;
 }
 @font-face {
   font-family: "Actay";
   src: url(./fonts/Actay/Actay-Regular.otf);
+  font-display: swap;
 }
 /* /Font family */
 body {

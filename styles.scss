@@ -96,18 +96,18 @@ input[type='file'] {
 
 @font-face {
     font-family: 'ActayWide';
-    src: url(/fonts/actaywide-bold3.otf);
+    src: url(./fonts/actaywide-bold3.otf);
 }
 
 @font-face {
     font-family: 'Actay';
-    src: url(/fonts/Actay/Actay-Regular.otf);
+    src: url(./fonts/Actay/Actay-Regular.otf);
 }
 
 /* /Font family */
 
 body {
-    background: url("/img/background.svg") no-repeat center fixed;
+    background: url("./img/background.svg") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -211,7 +211,7 @@ nav ul {
             position: relative;
         }
         &_link a::after {
-            content: url(/img/arrow_a.svg);
+            content: url(./img/arrow_a.svg);
             position: absolute;
             margin-left: 20px;
             width: 16px;
@@ -288,7 +288,7 @@ nav ul {
         justify-content: space-between;
     }
     &_link a::after {
-        content: url(/img/link_black.svg);
+        content: url(./img/link_black.svg);
         position: absolute;
         right: 0;
         width: 16px;
@@ -346,7 +346,7 @@ nav ul {
 }
 
 .item_container::after {
-    content: url(/img/border_img.svg);
+    content: url(./img/border_img.svg);
     position: absolute;
     width: 18px;
     height: 30px;
@@ -517,14 +517,14 @@ nav ul {
     }
     
     #prev::before {
-        content: url(/img/prev_arrow.svg);
+        content: url(./img/prev_arrow.svg);
         width: 24px;
         height: 24px;
         display: inline-block;
     }
     
     #next::after {
-        content: url(/img/next_arrow.svg);
+        content: url(./img/next_arrow.svg);
         width: 24px;
         height: 24px;
         display: inline-block;
